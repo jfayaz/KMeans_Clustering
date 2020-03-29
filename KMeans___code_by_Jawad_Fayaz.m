@@ -73,5 +73,8 @@ DATA_CLUSTERING_INDEX = idx;
 
 fprintf('\nK-Means Done.\n\n');
 
-xlabel('X(:,1)')
-ylabel('X(:,2)')
+xlabel('X(:,1)','fontWeight','bold')
+ylabel('X(:,2)','fontWeight','bold')
+set(gca,'fontsize',14,'FontName', 'Times New Roman','LineWidth', 1.25,'TickDir','out','TickLength', [0.005 0.005])
+grid on; box on;
+

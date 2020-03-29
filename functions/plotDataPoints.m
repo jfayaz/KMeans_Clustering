@@ -8,6 +8,6 @@ palette = hsv(K + 1);
 colors = palette(idx, :);
 
 % Plotting the data
-scatter(X(:,1), X(:,2), 15, colors);
+scatter(X(:,1), X(:,2), 30, colors,'linewidth',1.25);
 
 end
